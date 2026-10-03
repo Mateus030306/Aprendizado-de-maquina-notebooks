@@ -7,3 +7,5 @@ O modelo de regressão linear múltipla é o modelo inicial mais intuitivo na á
 O modelo do k-vizinhos mais próximos é um modelo não paramétrico bastante intuitivo e simples, a implementação foi feita considerando a distância euclidiana (ou a norma, no caso de vetores num espaço n-dimensional) e também comparando com a implementação feita pelo scikit-learn. Foram testados diferentes valores de k em diferentes datasets.
 ## Validação Cruzada e regularização L2
 Foram testados diferentes parâmetros de $\lambda$ na regularização L2 e diferentes tamanhos para o conjunto de validação. Os modelos testados foram Regressão linear (Ridge) com regularização L2 e knn com diferentes conjuntos de validação, foi utilizado grid search do scikit-learn para a busca por hiperparâmetros ótimos.
+## Regressão Logística
+O modelo de regressão logística binária é um dos primeiros modelos para classificação criados. Sendo o mais matematicamente explorado e explorando a fundo a relação entre classificação e probabilidades. A implementação feita aqui utiliza como função de perda a Verossimilhança-Logaritmíca-Negativa.
