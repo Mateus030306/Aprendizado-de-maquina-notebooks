@@ -9,3 +9,5 @@ O modelo do k-vizinhos mais próximos é um modelo não paramétrico bastante in
 Foram testados diferentes parâmetros de $\lambda$ na regularização L2 e diferentes tamanhos para o conjunto de validação. Os modelos testados foram Regressão linear (Ridge) com regularização L2 e knn com diferentes conjuntos de validação, foi utilizado grid search do scikit-learn para a busca por hiperparâmetros ótimos.
 ## Regressão Logística
 O modelo de regressão logística binária é um dos primeiros modelos para classificação criados. Sendo o mais matematicamente explorado e explorando a fundo a relação entre classificação e probabilidades. A implementação feita aqui utiliza como função de perda a Verossimilhança-Logaritmíca-Negativa.
+## Árvores de decisão
+O modelo de árvores de decisão para classificação implementado neste repositório considera o critério de impureza de gini. Os algoritmos baseados em árvore são comuns na ciência da computação no geral, sendo o modelo de árvores de decisão uma implementação da ideia de árvores para a área do aprendizado de máquina.
